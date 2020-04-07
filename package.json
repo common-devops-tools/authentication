@@ -1,0 +1,27 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Login & UserManagement Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "rundb": "./Database/db.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.1",
+    "cassandra-driver": "^3.2.0",
+    "crypto": "0.0.3",
+    "express": "^4.14.1",
+    "express-validator": "^3.1.2",
+    "jsonwebtoken": "^7.3.0",
+    "jsonwebtoken-refresh": "^5.7.0",
+    "merge-json": "0.1.0-b.3",
+    "moment": "^2.17.1",
+    "winston": "^2.3.1",
+    "winston-common-sentry": "^0.1.1"
+  }
+}
